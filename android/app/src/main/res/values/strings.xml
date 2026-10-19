@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Abra FlowX</string>
+    <string name="title_activity_main">Abra FlowX</string>
+    <string name="package_name">in.abragroup.flowx</string>
+    <string name="custom_url_scheme">in.abragroup.flowx</string>
+</resources>

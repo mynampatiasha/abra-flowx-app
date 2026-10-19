@@ -1,0 +1,31 @@
+{
+  "appId": "in.abragroup.flowx",
+  "appName": "Abra FlowX",
+  "webDir": "www",
+  "server": {
+    "url": "https://abra-flowxai.abragroup.in/dashboard/entity-select.php?source=android",
+    "cleartext": false,
+    "allowNavigation": [
+      "abra-flowxai.abragroup.in",
+      "*.abragroup.in",
+      "crm.abra-logistic.com"
+    ]
+  },
+  "android": {
+    "backgroundColor": "#010080",
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    }
+  },
+  "ios": {
+    "contentInset": "always",
+    "backgroundColor": "#010080"
+  }
+}

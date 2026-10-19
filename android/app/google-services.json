@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "905693475164",
+    "project_id": "abra-flowx-ai",
+    "storage_bucket": "abra-flowx-ai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905693475164:android:23b42722f43125836c1199",
+        "android_client_info": {
+          "package_name": "in.abragroup.flowx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcrEghBojgTWf3ycB16zd3nplqPHnnEhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
