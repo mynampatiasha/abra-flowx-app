@@ -1,8 +1,8 @@
 # =============================================================================
 #  Abra FlowX — iPhone build on Codemagic (cloud Mac) → TestFlight / App Store
 #  Start a build in Codemagic: app "abra-flowx" → workflow "Abra FlowX iOS".
-#  The only thing to change: ABRA_ASC_KEY below = the NAME of your App Store
-#  Connect API key in Codemagic (Team settings → Integrations → Developer Portal).
+#  Uses the App Store Connect API key named "Codemagic Admin" in Codemagic
+#  (Settings → Integrations → Developer Portal).
 # =============================================================================
 workflows:
   abra-flowx-ios:
@@ -10,7 +10,7 @@ workflows:
     max_build_duration: 60
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: ABRA_ASC_KEY          # <-- change to your key's name in Codemagic
+      app_store_connect: Codemagic Admin   # App Store Connect API key name in Codemagic
     environment:
       ios_signing:
         distribution_type: app_store
